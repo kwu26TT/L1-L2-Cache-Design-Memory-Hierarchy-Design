@@ -9,9 +9,9 @@ sim.cc   -> the file to read the input file and execute the main program
 sim.h    -> header file of sim
 
 3. cmd for control input pattern
-1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
+3-1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
 
-2. Run trace reader:
+3-2. Run trace reader:
 
    To run without throttling output:
    ./sim 32 8192 4 262144 8 3 10 ../example_trace.txt
