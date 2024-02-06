@@ -1,3 +1,14 @@
+1. Introduction
+In this project, I built a simulator that can simulate four types of memory hierarchy: L1 cache only,  L1 cache + L2 cache. 
+The accompanying project report delves into the analysis of different cache setups, elucidating the interplay among block offsets, cache size, and associativity. All caches are instantiated with the least-recently-used (LRU) replacement policy and adopt a write-back + write-allocate (WBWA) write policy.
+
+2. Files Introduction
+cache.cc -> L1, L2 cache class
+cache.h  -> header file of cache.cc
+sim.cc   -> the file to read the input file and execute the main program
+sim.h    -> header file of sim
+
+3. cmd for control input pattern
 1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
 
 2. Run trace reader:
