@@ -281,27 +281,3 @@ void Cache::print_content()
     }
 }
 
-// void Cache::print_result(int num)
-//{
-// if(num == 1)
-//     std::cout << "" << std::endl;
-//     std::cout << "===== Measurements =====" << std::endl;
-//     std::cout << "a. L reads:                   " << cnt_Read << std::endl;
-//     std::cout << "b. L1 read misses:             " << cnt_Read_miss << std::endl;
-//     std::cout << "c. L1 writes:                  " << cnt_Write << std::endl;
-//     std::cout << "d. L1 write misses:            " << cnt_Write_miss << std::endl;
-//     std::cout << "e. L1 miss rate:               " << float((cnt_Read_miss + cnt_Write_miss) / (cnt_Read + cnt_Write)) << std::endl;
-//     std::cout << "f. L1 writebacks:              " << cnt_writebacks << std::endl;
-// if(num==2)
-//  g. L1 prefetches:              0
-//  h. L2 reads (demand):          0
-//  i. L2 read misses (demand):    0
-//  j. L2 reads (prefetch):        0
-//  k. L2 read misses (prefetch):  0
-//  l. L2 writes:                  0
-//  m. L2 write misses:            0
-//  n. L2 miss rate:               0.0000
-//  o. L2 writebacks:              0
-//  p. L2 prefetches:              0
-//  q. memory traffic:             29023
-//}
