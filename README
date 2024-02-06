@@ -1,6 +1,6 @@
 1. Introduction
 In this project, I built a simulator that can simulate four types of memory hierarchy: L1 cache only,  L1 cache + L2 cache. 
-The accompanying project report delves into the analysis of different cache setups, elucidating the interplay among block offsets, cache size, and associativity. All caches are instantiated with the least-recently-used (LRU) replacement policy and adopt a write-back + write-allocate (WBWA) write policy.
+The accompanying project report delves into the analysis of different cache setups, explained the interplay among block offsets, cache size, and associativity. All caches are instantiated with the least-recently-used (LRU) replacement policy and adopt a write-back + write-allocate (WBWA) write policy.
 
 2. Files Introduction
 cache.cc -> L1, L2 cache class
