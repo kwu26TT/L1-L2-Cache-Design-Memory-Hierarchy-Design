@@ -8,7 +8,7 @@ cache.h  -> header file of cache.cc
 sim.cc   -> the file to read the input file and execute the main program
 sim.h    -> header file of sim
 
-3. cmd for control input pattern
+3. Command for control input pattern
 3-1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
 
 3-2. Run trace reader:
